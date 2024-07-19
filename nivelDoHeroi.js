@@ -1,4 +1,4 @@
-let xp = -10
+let xp = 10210
 let nivel
 let nomeHeroi = "Nyou"
 
@@ -23,7 +23,7 @@ else if(xp >= 6000 && xp < 8000){
 else if(xp >= 8000 && xp < 9000){
     nivel = "Esmeralda"
 }
-else if(xp >= 9000 && xp < 1000){
+else if(xp >= 9000 && xp > 10000){
     nivel = "Diamante"
 }
 else{
