@@ -2,7 +2,7 @@ let xp = "" //coloque a quantidade de xp do seu herói
 let nivel
 let nomeHeroi = ""  //coloque o nome do seu herói
 
-if (xp > 0 && xp < 1000) {
+if (xp > 0 && xp < 1000){
     nivel = "Bronze"
 }
 else if(xp >= 1000 && xp < 2000){
@@ -31,12 +31,10 @@ else{
 }
 
 switch(nivel){
-
     case "Diamante":
         console.log(`O seu Herói: ${nomeHeroi} tem [${xp}]xp e está no nível ${nivel} o nível mais alto`)
     break
     default:
         console.log(`O seu Herói: ${nomeHeroi} tem [${xp}]xp e está no nível ${nivel}`)
-    break    
-
+    break
 }
