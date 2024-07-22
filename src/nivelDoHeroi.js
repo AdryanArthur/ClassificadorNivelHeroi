@@ -28,6 +28,7 @@ else if(xp >= 9000 && xp > 10000){
 }
 else{
     console.log(`Seu Herói: ${nomeHeroi} não tem nível nenhum`)
+    return
 }
 
 switch(nivel){
