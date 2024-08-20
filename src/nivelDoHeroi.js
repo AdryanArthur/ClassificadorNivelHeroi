@@ -1,6 +1,6 @@
-let xp = "" //coloque a quantidade de xp do seu herói
+let xp = "1478" //coloque a quantidade de xp do seu herói
 let nivel
-let nomeHeroi = ""  //coloque o nome do seu herói
+let nomeHeroi = "Adryan"  //coloque o nome do seu herói
 
 if (xp > 0 && xp < 1000){
     nivel = "Bronze"
@@ -23,19 +23,19 @@ else if(xp >= 6000 && xp < 8000){
 else if(xp >= 8000 && xp < 9000){
     nivel = "Esmeralda"
 }
-else if(xp >= 9000 && xp > 10000){
+else if(xp >= 9000){
     nivel = "Diamante"
 }
 else{
-    console.log(`Seu Herói: ${nomeHeroi} não tem nível nenhum`)
+    console.log(`Seu Herói não tem nível nenhum`)
     return
 }
 
 switch(nivel){
     case "Diamante":
-        console.log(`O seu Herói: ${nomeHeroi} tem [${xp}]xp e está no nível ${nivel} o nível mais alto`)
+        console.log(`O seu Herói ${nomeHeroi} tem [${xp}] de xp e está no nível ${nivel} o nível mais alto`)
     break
     default:
-        console.log(`O seu Herói: ${nomeHeroi} tem [${xp}]xp e está no nível ${nivel}`)
+        console.log(`O seu Herói ${nomeHeroi} tem [${xp}] de xp e está no nível ${nivel}`)
     break
 }
