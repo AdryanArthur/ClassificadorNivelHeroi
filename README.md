@@ -1,5 +1,4 @@
-# DesafioDIO
-# Desafio Classificador de nível de Herói
+# DesafioDIO Classificador de nível de Herói
 
 **O Que deve ser utilizado**
 
